@@ -13,3 +13,4 @@ pkg/*
 plugins
 public/cache
 spec/tmp
+.idea/

@@ -31,12 +31,12 @@ EOF
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency('haml', '~> 3.1')
-  s.add_dependency('sass', '~> 3.1')
+  s.add_dependency('haml', '~> 4.0')
+  s.add_dependency('sass', '~> 3.2')
   s.add_dependency('rdiscount', '~> 2.1')
   s.add_dependency('RedCloth', '~> 4.2')
   s.add_dependency('sinatra', '~> 1.4')
-  s.add_dependency('rack', '~> 1.3')
+  s.add_dependency('rack', '~> 1.5')
 
   # Useful in development
   s.add_development_dependency('mr-sparkle', '>= 0.0.2')
